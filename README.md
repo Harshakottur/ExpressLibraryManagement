@@ -36,15 +36,27 @@ This project is an Express.js-based backend for a Library Management System.
    
 4. Generating JWT Secret Key Locally
 
-You can generate a JWT secret key using Node.js. Open your terminal or command prompt and run the following command:
+   You can generate a JWT secret key using Node.js. Open your terminal or command prompt and run the following command:
 
-```bash
-  node -e "console.log(require('crypto').randomBytes(32).toString('hex'));"
+   ```bash
+     node -e "console.log(require('crypto').randomBytes(32).toString('hex'));"
 
-5. Add and update .env file:
+5. Add and update .env file
+   DB_URI=mongodb://localhost:27017/your_database_name
+   PORT=5000
+   JWT_SECRET=<paste-your-generated-jwt-secret-key> // from above command
+   
+6. Run the Seeder Script
+    ```bash
+      node seeder.js
+    
+7. Start the Express server:
 
+      ```bash
+      npm start
+      
+8. Login for user and admin
+   only add username for ##user privilage username: user1
+   for ##admin privilage username: admin1 password: admin1pass
 
-PORT=5000
-JWT_SECRET=<paste-your-generated-jwt-secret-key>
-DB_URI=mongodb://localhost:27017/your_database_name
 
