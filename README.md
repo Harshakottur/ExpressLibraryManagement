@@ -1,6 +1,4 @@
 # ExpressLibraryManagement
-# Express Library Management System
-
 This project is an Express.js-based backend for a Library Management System.
 
 ## Features
@@ -43,5 +41,10 @@ You can generate a JWT secret key using Node.js. Open your terminal or command p
 ```bash
   node -e "console.log(require('crypto').randomBytes(32).toString('hex'));"
 
+5. Add and update .env file:
 
+
+PORT=5000
+JWT_SECRET=<paste-your-generated-jwt-secret-key>
+DB_URI=mongodb://localhost:27017/your_database_name
 
