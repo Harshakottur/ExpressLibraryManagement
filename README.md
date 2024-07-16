@@ -5,7 +5,7 @@ This project is an Express.js-based backend for a Library Management System.
 
 - [ ] Authentication (JWT-based)
 - [ ] CRUD Operations for Books
-- [ ] CR AdminUsers, Users, and Transactions
+- [ ] CR Operations AdminUsers, Users, and Transactions
 - [ ] Role-based Access Control (Admin, User)
 - [ ] Logging and Error Handling
 
