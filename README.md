@@ -56,7 +56,7 @@ This project is an Express.js-based backend for a Library Management System.
       npm start
       
 8. Login for user and admin
-   only add username for ##user privilage username: user1
-   for ##admin privilage username: admin1 password: admin1pass
+   only add username for ## user privilage username: user1
+   for ## admin privilage username: admin1 password: admin1pass
 
 
