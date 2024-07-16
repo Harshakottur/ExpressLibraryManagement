@@ -59,7 +59,7 @@ This project is an Express.js-based backend for a Library Management System.
       ### only add username for user privilage
          username: user1
    
-      ### for ## admin privilage
+      ### for admin privilage
          username: admin1
          password: admin1pass
 
