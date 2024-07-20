@@ -53,7 +53,7 @@ This project is an Express.js-based backend for a Library Management System.
 7. Start the Express server:
 
       ```bash
-      npm start
+      npm run dev
       
 8. Login for user and admin
       ### only add username for user privilage
